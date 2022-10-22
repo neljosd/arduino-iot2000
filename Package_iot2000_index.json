@@ -5,16 +5,13 @@
       "name": "Simatic",
       "maintainer": "Siemens AG",
       "websiteURL": "http://w3.siemens.com/mcms/pc-based-automation/en/industrial-iot/Pages/Default.aspx",
-      "platforms": 
+      "platforms":
 	  [
         {
           "name": "Simatic IOT2000 Devices",
           "architecture": "iot2000",
           "version": "1.0.1",
           "category": "Contributed",
-          "help": {
-            "online": "https://support.industry.siemens.com/tf/ww/en/conf/60/"
-          },
           "url": "https://github.com/juntermar/arduino-iot2000/blob/master/Versions/iot2000_1.0.1.zip",
           "archiveFileName": "iot2000_1.0.1.zip",
           "checksum": "SHA-256:0fa5c0cb72dff7a472198f489babbd8c6959d445d0007181f97f26bfd0f3ca20",
@@ -23,7 +20,8 @@
             { "name": "Simatic IOT2000" },
             { "name": "Simatic IOT2000 Net" }
           ],
-          "toolsDependencies": [
+          "toolsDependencies": 
+		  [
             {
               "packager": "Simatic",
               "name": "i586-poky-linux-uclibc",
@@ -43,7 +41,8 @@
         {
           "name": "i586-poky-linux-uclibc",
           "version": "1.6.2+1.0",
-          "systems": [
+          "systems": 
+		  [
             {
               "size": "30587705",
               "checksum": "SHA-256:5b705d26dc1d8ca8953df6e0c08dcc8584d5be77b584d561f631360fd166677c",
