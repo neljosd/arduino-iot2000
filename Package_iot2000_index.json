@@ -1,10 +1,12 @@
 {
-  "packages": [
+  "packages": 
+  [
     {
       "name": "Simatic",
       "maintainer": "Siemens AG",
       "websiteURL": "http://w3.siemens.com/mcms/pc-based-automation/en/industrial-iot/Pages/Default.aspx",
-      "platforms": [
+      "platforms": 
+	  [
         {
           "name": "Simatic IOT2000 Devices",
           "architecture": "iot2000",
@@ -36,7 +38,8 @@
         }
       ],
 
-      "tools": [
+      "tools": 
+	  [
         {
           "name": "i586-poky-linux-uclibc",
           "version": "1.6.2+1.0",
@@ -74,7 +77,8 @@
         {
           "name": "sketchUploader",
           "version": "1.6.2+1.0",
-          "systems": [
+          "systems": 
+		  [
             {
               "size": "61789",
               "checksum": "SHA-256:8395ccb57c627f997fe01170df4613de906f48c6ce99623b9ca42806079c28ad",
